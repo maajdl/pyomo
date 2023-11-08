@@ -308,7 +308,12 @@ setup_kwargs = dict(
         "pyomo.contrib.viewer": ["*.ui"],
     },
     ext_modules=ext_modules,
-    entry_points="""
+    # entry_points="""
+    entry_points = {
+    'console_scripts': [
+        'glpsol = solvers_lin64.glpsol:main',
+    ],
+}
     [console_scripts]
     pyomo = pyomo.scripting.pyomo_main:main_console_script
 
