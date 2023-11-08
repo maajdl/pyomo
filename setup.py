@@ -1,3 +1,6 @@
+# MJ to distribute soler binaries
+zip_safe=False
+
 #  ___________________________________________________________________________
 #
 #  Pyomo: Python Optimization Modeling Objects
