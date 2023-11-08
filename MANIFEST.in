@@ -1,3 +1,2 @@
 include README.md
 include LICENSE.md
-include pyomo/solvers_lin64/glpsol
